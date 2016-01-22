@@ -15,6 +15,9 @@ html,body {
     text-align: center;
     vertical-align: middle;
 }
+.content span{
+    font-size:22px;
+}
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */

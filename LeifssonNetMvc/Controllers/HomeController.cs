@@ -26,5 +26,10 @@ namespace LeifssonNetMvc.Controllers
 
             return View();
         }
+
+        public ActionResult Sumarfri()
+        {
+            return View();
+        }
     }
 }

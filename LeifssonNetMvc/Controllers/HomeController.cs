@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using LeifssonNetMvc.Models;
 
 namespace LeifssonNetMvc.Controllers
 {
@@ -10,7 +11,8 @@ namespace LeifssonNetMvc.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            HomeViewModel m = new HomeViewModel {HostName = Environment.MachineName};
+            return View(m);
         }
 
         public ActionResult About()

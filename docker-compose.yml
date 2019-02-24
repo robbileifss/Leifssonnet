@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  leifssoncoreweb:
+    image: ${DOCKER_REGISTRY}leifssoncoreweb
+    build:
+      context: .
+      dockerfile: LeifssonCoreWeb/Dockerfile

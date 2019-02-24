@@ -1,18 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94BBC035-3752-4D95-AAF3-51C15D279847}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{635CBFAD-CCD8-4E64-B55E-765833805025}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LeifssonNet5", "src\LeifssonNet5\LeifssonNet5.xproj", "{EBE2A82B-F7D1-4783-AC00-4A1956E06E2A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeifssonNetMvc", "LeifssonNetMvc\LeifssonNetMvc.csproj", "{1E91EFB2-9160-4864-AC06-78EFBCEBB2AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeifssonCoreWeb", "LeifssonCoreWeb\LeifssonCoreWeb.csproj", "{14143631-FFA9-44A1-BB4E-143C12096427}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{66271FC8-2BF6-4D96-87DD-7B031301CDCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,19 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EBE2A82B-F7D1-4783-AC00-4A1956E06E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBE2A82B-F7D1-4783-AC00-4A1956E06E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBE2A82B-F7D1-4783-AC00-4A1956E06E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBE2A82B-F7D1-4783-AC00-4A1956E06E2A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E91EFB2-9160-4864-AC06-78EFBCEBB2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E91EFB2-9160-4864-AC06-78EFBCEBB2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E91EFB2-9160-4864-AC06-78EFBCEBB2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E91EFB2-9160-4864-AC06-78EFBCEBB2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14143631-FFA9-44A1-BB4E-143C12096427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14143631-FFA9-44A1-BB4E-143C12096427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14143631-FFA9-44A1-BB4E-143C12096427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14143631-FFA9-44A1-BB4E-143C12096427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66271FC8-2BF6-4D96-87DD-7B031301CDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66271FC8-2BF6-4D96-87DD-7B031301CDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66271FC8-2BF6-4D96-87DD-7B031301CDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66271FC8-2BF6-4D96-87DD-7B031301CDCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EBE2A82B-F7D1-4783-AC00-4A1956E06E2A} = {94BBC035-3752-4D95-AAF3-51C15D279847}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBD8B239-E79B-4677-B219-7C341A0A009B}
 	EndGlobalSection
 EndGlobal
